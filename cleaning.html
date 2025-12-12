@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>قسم أدوات التنظيف</title>
+<link rel="Icon" href="Icon/logo-101.jpg" />
+    <link rel="stylesheet" href="css/Ster.css" />
+  </head>
+  <style>
+    html {
+      background: #414f6a;
+    }
+    .product-grid {
+    margin-top: 85px;
+    }
+      .nh {
+
+  background: #fff;
+ 
+      }
+    .al{
+  color: #414f6a;
+  
+}
+.p {
+ color: #414f6a;
+}
+
+.pa {
+  color: #414f6a;
+  margin-top: 15px;
+}
+  </style>
+  <body>
+    <section class="home">
+      <nav>
+        <h2>
+          AL_Saloul<span><sub>Store</sub></span>
+        </h2>
+        <ul>
+          <li><a href="plastic.html">بلاستيك</a></li>
+          <li><a href="cleaning.html">أدوات التنظيف</a></li>
+          <li><a href="bath.html">مستلزمات الحمام</a></li>
+          <li><a href="Household.html">أدوات منزلية</a></li>
+          <li><a href="Ster.html">الرئيسة</a></li>
+        </ul>
+        <div class="social">
+          <a
+            href="https://chat.whatsapp.com/Kpz9cFSeqriLeSToC7Wl20"
+            target="_blank"
+            ><img src="images/Whatsapp_37229.png" alt=""
+          /></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61557604079814&mibextid=LQQJ4d"
+            target="_blank"
+            ><img
+              src="images/1491579586-yumminkysocialmedia21_83091.png"
+              alt=""
+          /></a>
+          <a
+            href="https://www.instagram.com/saloul.store?igsh=MXZ2OTc1MGZsYTEzZA=="
+            target="_blank"
+            ><img
+              src="images/1491580635-yumminkysocialmedia26_83102.png"
+              alt=""
+          /></a>
+        </div>
+        <div class="header-actions">
+          <button id="cart-btn" class="cart" onclick="toggleCart()">🛒 <span id="cart-count">0</span></button>
+        </div>
+      </nav>
+    </section>
+
+    <h1 style="text-align: center; color: white; margin-top: 100px">
+      قسم أدوات التنظيف
+    </h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/تنزيل (1).jpeg" alt="منتج 1" />
+        <h2>معطر ملابس لويال</h2>
+        <p class="price">السعر: 1500 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'معطر ملابس لويال',1500)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩٠٩_١١٤٢٣٠.jpg" alt="منتج 2" />
+          <h2>فرشة تنظيف</h2>
+          <p class="price">السعر: 400 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'فرشة تنظيف',400)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩١٠_١٩٥٠٣٢.jpg" alt="منتج 3" />
+          <h2>موب ملون</h2>
+          <p class="price">السعر: 10000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'موب ملون',10000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩١٠_١٩٥٢٤٣.jpg" alt="منتج 2" />
+          <h2>موب اتماتيك</h2>
+          <p class="price">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'موب اتماتيك',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/FB_IMG_1630956225712.jpg" alt="منتج 2" />
+          <h2>موب مع الصطل</h2>
+          <p class="price">السعر: 4500 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'موب مع الصطل',4500)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٢٠٥_١٢٠٧٢٧.jpg" alt="منتج 2" />
+          <h2>مسكات عصاء</h2>
+          <p class="price">السعر: 500 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'مسكات عصاء',500)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٢٢٠_١٦١١١٦.jpg" alt="منتج 2" />
+          <h2>علبه مع السفنج</h2>
+          <p class="price">السعر: 1200 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'علبه مع السفنج',1200)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/FB_IMG_1630956249133.jpg" alt="منتج 2" />
+          <h2>زاوية حمام</h2>
+          <p class="price">السعر: 1800 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'زاوية حمام',1800)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/images (4).jpeg" alt="منتج 2" />
+          <h2>زاوية حمام</h2>
+          <p class="price">السعر: 1200 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'زاوية حمام',1200)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٢١٢_١١١٧٢٦.jpg" alt="منتج 2" />
+          <h2>استاند مناديل</h2>
+          <p class="price">السعر: 1000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'استاند مناديل',1000)">
+            إضافة للسلة
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="nh">
+      <div class="al">
+        AL_Saloul<span><sub>Store</sub></span>
+      </div>
+      <div class="p"><p>الموقع : نقم سوق التوحيد جوار محطة دبي للمياة</p></div>
+      <div class="pa">الهاتف : 771885632</div>
+    </div>
+    <!-- لوحة السلة -->
+  <div id="cart-items" style="display:none; position: fixed; top: 110px; right: 16px; width: 440px; max-width:calc(100% - 32px); z-index:200;">
+      <h3 class="text-dark">سلة المشتريات</h3>
+      <p id="cart-total" class="text-dark">الإجمالي: 0 ريال</p>
+      <ul id="cart-list"></ul>
+      <div style="display:flex;gap:8px;justify-content:space-between;margin-top:10px;">
+        <button onclick="checkout()" class="buy-btn" style="flex:1">الدفع</button>
+  <button onclick="clearCart()" class="buy-btn" style="flex:1">تفريغ</button>
+      </div>
+    </div>
+
+    <script src="js/cart.js"></script>
+  </body>
+</html>

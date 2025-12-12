@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>قسم الأدوات منزلية</title>
+<link rel="Icon" href="Icon/logo-101.jpg" />
+    <link rel="stylesheet" href="css/Ster.css" />
+  </head>
+  <style>
+    html {
+      background: #414f6a;
+    }
+    .product-grid {
+    margin-top: 85px;
+    }
+      .nh {
+
+  background: #fff;
+ 
+}
+    .al{
+  color: #414f6a;
+  
+}
+.p {
+ color: #414f6a;
+}
+
+.pa {
+  color: #414f6a;
+  margin-top: 15px;
+}
+  </style>
+  <body>
+    <section class="home">
+      <nav>
+        <h2>
+          AL_Saloul<span><sub>Store</sub></span>
+        </h2>
+        <ul>
+          <li><a href="plastic.html">بلاستيك</a></li>
+          <li><a href="cleaning.html">أدوات التنظيف</a></li>
+          <li><a href="bath.html">مستلزمات الحمام</a></li>
+          <li><a href="Household.html">أدوات منزلية</a></li>
+          <li><a href="Ster.html">الرئيسة</a></li>
+        </ul>
+        <div class="social">
+          <a
+            href="https://chat.whatsapp.com/Kpz9cFSeqriLeSToC7Wl20"
+            target="_blank"
+            ><img src="images/Whatsapp_37229.png" alt=""
+          /></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61557604079814&mibextid=LQQJ4d"
+            target="_blank"
+            ><img
+              src="images/1491579586-yumminkysocialmedia21_83091.png"
+              alt=""
+          /></a>
+          <a
+            href="https://www.instagram.com/saloul.store?igsh=MXZ2OTc1MGZsYTEzZA=="
+            target="_blank"
+            ><img
+              src="images/1491580635-yumminkysocialmedia26_83102.png"
+              alt=""
+          /></a>
+        </div>
+        <div class="header-actions">
+          <button id="cart-btn" class="cart" onclick="toggleCart()">🛒 <span id="cart-count">0</span></button>
+        </div>
+      </nav>
+    </section>
+
+    <h1 style="text-align: center; color: white; margin-top: 100px">
+      قسم الأدوات منزلية
+    </h1>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩٢٤_١٨٢٢٢٢.jpg" alt="منتج 1" />
+          <h2>قالب شوكولاتة</h2>
+          <p class="price">السعر: 700 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'قالب شوكولاتة',700)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٣٠٣_١٢٠٦٣٨.jpg" alt="منتج 2" />
+          <h2>حافظات طعام 7 مقاسات</h2>
+          <p class="price">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'حافظات طعام 7 مقاسات',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٢١٥_١١٣٠٠٨.jpg" alt="منتج 3" />
+          <h2>صحون حراري</h2>
+          <p class="price">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'صحون حراري',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢١١٢٢٥_١٢٥٩٠٣.jpg" alt="منتج 2" />
+          <h2>كوب حراري استيل</h2>
+          <p class="price">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'كوب حراري استيل',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠١١٢_١٥٤٥٥٦.jpg" alt="منتج 2" />
+          <h2>حافظات زجاج 1*5</h2>
+          <p class="price">السعر: 1700 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'حافظات زجاج 1*5',1700)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٢٠٥_١٢٠٧٢٧.jpg" alt="منتج 2" />
+          <h2>مسكات عصاء</h2>
+          <p class="price">السعر: 500 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'مسكات عصاء',500)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٤٢٢_١٢٠٢٤٠.jpg" alt="منتج 2" />
+          <h2>جاك زجاج</h2>
+          <p class="price">السعر: 1800 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'جاك زجاج',1800)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٨٠٢_١٠٢٩٠٦.jpg" alt="منتج 2" />
+          <h2>ادراج بلاسنيك</h2>
+          <p class="price">السعر: 1800 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'ادراج بلاسنيك',1800)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١١٠١٥_٢٢٠٢٣٧.jpg" alt="منتج 2" />
+          <h2>قطاعة خضار</h2>
+          <p class="price">السعر: 600 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'قطاعة خضار',600)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/51dff3d90b824a27b979c6fec6fdd8f5.jpg" alt="منتج 2" />
+          <h2>غطاء سيلكون 6 مقاسات</h2>
+          <p class="price">السعر: 800 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'غطاء سيلكون 6 مقاسات',800)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩٠٨_١٩٤٧٢٩.jpg" alt="منتج 2" />
+          <h2>عصارات خضار</h2>
+          <p class="price">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'عصارات خضار',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩٠٨_١٩٥٠١٣.jpg" alt="منتج 2" />
+          <h2>نشافة خضار</h2>
+          <p class="price">السعر: 1200 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'نشافة خضار',1200)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩١٤_١٩٢٤٤٩.jpg" alt="منتج 2" />
+          <h2>مقرشة بطاط</h2>
+          <p class="price">السعر: 700 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'مقرشة بطاط',700)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩١٤_١٩٣٢٠٩.jpg" alt="منتج 2" />
+          <h2>هراسة ثوم</h2>
+          <p class="price">السعر: 1000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'هراسة ثوم',1000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩١٤_١٩٥٦٤٥.jpg" alt="منتج 2" />
+          <h2>ملاعق مقادير</h2>
+          <p class="price">السعر: 800 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'ملاعق مقادير',800)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩١٤_١٩٥٧٢٣.jpg" alt="منتج 2" />
+          <h2>ملاعق سيلكون</h2>
+          <p class="price">السعر: 700 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'ملاعق سيلكون',700)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١٠٩٢٢_٢٠٣٥٢٢.jpg" alt="منتج 2" />
+          <h2>كوب حراري</h2>
+          <p class="price">السعر: 1000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'كوب حراري',1000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١١٠٠٦_١٠٢٢١٧.jpg" alt="منتج 2" />
+          <h2>طبعة كعك</h2>
+          <p class="price">السعر: 1000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'طبعة كعك',1000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١١١٣٠_١٨٠٨٤٥.jpg" alt="منتج 2" />
+          <h2>دينمة ماء شحن</h2>
+          <p class="price">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'دينمة ماء شحن',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١١٢٠١_١٢٢٤٣٠.jpg" alt="منتج 2" />
+          <h2>قوالب كرواسة</h2>
+          <p class="price">السعر: 700 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'قوالب كرواسة',700)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢١١٢٠١_١٢٣٩٠٦.jpg" alt="منتج 2" />
+          <h2>منشار ترته</h2>
+          <p class="price">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'منشار ترته',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠١٠٨_١٦٠٥١٠.jpg" alt="منتج 2" />
+          <h2>بخاخ زيت</h2>
+          <p class="price">السعر: 1000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'بخاخ زيت',1000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠١٠٩_١٢٤٢٠٥.jpg" alt="منتج 2" />
+          <h2>مملس ترته</h2>
+          <p class="price">السعر: 500 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'مملس ترته',500)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/٢٠٢٢٠٢٠٨_١٢٤٩٢١.jpg" alt="منتج 2" />
+          <h2>صاج سمبوس تيفال</h2>
+          <p class="price">السعر: 8000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'صاج سمبوس تيفال',8000)">
+            إضافة للسلة
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/FB_IMG_1631021449677.jpg" alt="منتج 2" />
+          <h2>قطاعة خضار</h2>
+          <p class="price">السعر: 3500 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'قطاعة خضار',3500)">
+            إضافة للسلة
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="nh">
+      <div class="al">
+        AL_Saloul<span><sub>Store</sub></span>
+      </div>
+      <div class="p"><p>الموقع : نقم سوق التوحيد جوار محطة دبي للمياة</p></div>
+      <div class="pa">الهاتف : 771885632</div>
+    </div>
+    <!-- لوحة السلة -->
+  <div id="cart-items" style="display:none; position: fixed; top: 110px; right: 16px; width: 440px; max-width:calc(100% - 32px); z-index:200;">
+      <h3 class="text-dark">سلة المشتريات</h3>
+      <p id="cart-total" class="text-dark">الإجمالي: 0 ريال</p>
+      <ul id="cart-list"></ul>
+      <div style="display:flex;gap:8px;justify-content:space-between;margin-top:10px;">
+        <button onclick="checkout()" class="buy-btn" style="flex:1">الدفع</button>
+  <button onclick="clearCart()" class="buy-btn" style="flex:1">تفريغ</button>
+      </div>
+    </div>
+
+    <script src="js/cart.js"></script>
+  </body>
+</html>

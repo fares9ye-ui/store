@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edhe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الصلول للادوات المنزلية</title>
+    <meta name="description" content="Best free online courses ..." />
+    <meta
+      name="Keywords"
+      content="Tahiri, Lahcen, Tahiri lahxen, Barmaja online, java, php, ionic, angular, nodejs,react"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="css/Ster.css" />
+    <link rel="Icon" href="Icon/logo-101.jpg" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <section class="home">
+      <nav>
+        <h2>
+          AL_Saloul<span><sub>Store</sub></span>
+        </h2>
+        <ul>
+          <li><a href="plastic.html">بلاستيك</a></li>
+          <li><a href="cleaning.html">أدوات التنظيف</a></li>
+          <li><a href="bath.html">مستلزمات الحمام</a></li>
+          <li><a href="Household.html">أدوات منزلية</a></li>
+          <li><a href="ster.html" >الرئيسة</a></li>
+        </ul>
+        <div class="social">
+          <a
+            href="https://chat.whatsapp.com/Kpz9cFSeqriLeSToC7Wl20"
+            target="_blank"
+            ><img src="images/Whatsapp_37229.png" alt=""
+          /></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61557604079814&mibextid=LQQJ4d"
+            target="_blank"
+            ><img
+              src="images/1491579586-yumminkysocialmedia21_83091.png"
+              alt=""/></a>
+          <a
+            href="https://www.instagram.com/saloul.store?igsh=MXZ2OTc1MGZsYTEzZA=="
+            target="_blank"
+            ><img
+              src="images/1491580635-yumminkysocialmedia26_83102.png"
+              alt=""
+          /></a>
+        </div>
+        <!-- زر السلة -->
+        <div class="header-actions">
+          <button id="cart-btn" class="cart" onclick="toggleCart()">
+            🛒 <span id="cart-count">0</span>
+          </button>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/silders/green-rice-cooker-bowls.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="images/silders/supplies-composition-with-blue-background-top-view.jpg"
+          />
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <section>
+      <div class="products mt-5 text-center">
+        <h2 class="heading my-5 text-black">منتجاتنا</h2>
+        
+        <!-- Swiper -->
+        <div class="swiper productSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/pexels-cottonbro-4778348.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-ekaterina-bolovtsova-6312270.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-felicity-tai-7966417.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-pavel-danilyuk-6996092.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-theo-cold-814199886-34005910.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-theo-cold-814199886-34005916.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-liliana-drew-9462305.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-felicity-tai-7966009.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-ron-lach-8176584.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-pavel-danilyuk-6996251.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-ron-lach-10048319.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/pexels-felicity-tai-7966340.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+<!-- ====== المنتجات ====== -->
+    <h2 class="heading my-5 text-black" style="text-align: center;">جديدنا</h2>
+     <div class="product-grid">
+        <!-- مثال منتج واحد -->
+         
+        <div class="product-card">
+          <img src="img/pexels-cottonbro-4778348.jpg" alt="منتج 1" />
+          <h2>برطمان زجاج</h2>
+          <p class="price" data-price="700">السعر: 1500 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'برطمان زجاج',700)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="img/pexels-ekaterina-bolovtsova-6312270.jpg" alt="منتج 2" />
+          <h2>  اكواب صافي</h2>
+          <p class="price" data-price="2000">السعر: 3000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'اكواب صافي',3000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="img/pexels-felicity-tai-7966417.jpg" alt="منتج 2" />
+          <h2>قالب كب كيك 1*12 </h2>
+          <p class="price" data-price="2000">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'قالب كب كيك 1*12',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="img/pexels-pavel-danilyuk-6996092.jpg" alt="منتج 2" />
+          <h2> ملاعق سيليكون</h2>
+          <p class="price" data-price="2000">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'ملاعق سيليكون',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="img/pexels-theo-cold-814199886-34005910.jpg" alt="منتج 2" />
+          <h2>حافظات طعام</h2>
+          <p class="price" data-price="2000">السعر: 2000 ريال</p>
+          <button class="buy-btn" onclick="addToCart(this,'حافظات طعام',2000)">
+            إضافة للسلة
+          </button>
+        </div>
+
+    </div>
+   
+    <div class="nh">
+      
+       <div class="al"> AL_Saloul<span><sub>Store</sub></span></div>
+       <div class="p"><p >الموقع : نقم سوق التوحيد جوار محطة دبي للمياة</p></div>
+       <div class="pa">الهاتف : 771885632</div>
+       
+       
+
+    </div>
+   
+    <!-- لوحة السلة -->
+  <div id="cart-items" style="display:none; position: fixed; top: 110px; right: 16px; width: 440px; max-width:calc(100% - 32px); z-index:200;">
+      <h3 class="text-dark">سلة المشتريات</h3>
+      <p id="cart-total" class="text-dark">الإجمالي: 0 ريال</p>
+      <ul id="cart-list"></ul>
+      <div style="display:flex;gap:8px;justify-content:space-between;margin-top:10px;">
+        <button onclick="checkout()" class="buy-btn" style="flex:1">الدفع</button>
+  <button onclick="clearCart()" class="buy-btn" style="flex:1">تفريغ</button>
+      </div>
+    </div>
+
+   
+
+    <script>
+      // ======= Swipers ======
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        autoplay: {
+          delay: 7500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      var swiper = new Swiper(".productSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: { slidesPerView: 2, spaceBetween: 20 },
+          768: { slidesPerView: 4, spaceBetween: 40 },
+          1024: { slidesPerView: 5, spaceBetween: 50 },
+        },
+      });
+    </script>
+
+    <script src="js/cart.js"></script>
+  </body>
+</html>
